@@ -1,0 +1,241 @@
+/* CSS Document */
+.paratablas{ border:1px solid gray; border-radius:10px 10px 0px 0px;; -moz-border-radius:10px 0px 0px 10px; /*para compatibilidad con mozilla*/
+}
+
+a{color:#FFFFFF; text-decoration:none;}
+
+.fondin{background:#F8F8F9;}
+.parasombra{box-shadow: 5px 5px 5px gray; /*x y suavizado*/}
+TABLE.v1-collapse-unshadow{ 
+	border-collapse:collapse; background:#FFFFFF; border:1px solid #999999    		
+}
+/*TABLE.v2-collapse-shadow{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	background-color:#FFFFFF;
+	border-top: 1px solid #000066; border-top:<ancho> <estilo> <color>
+	border-bottom: 1px ridge #000066;
+	border-right: 1px ridge #000066;
+	border-left: 1px solid #000066;
+	padding: 0px 0px 0px 0px;
+	
+}*/
+td.filo{border: 1px solid #CCCCCC;	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana,arial,sans-serif}
+.Estilo1 {font-size: 11px}
+TABLE.v2-collapse-shadow{
+	/*font-family:  Tahoma , Helvetica, sans-serif;*/
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	/*font-size:12px;*/
+	/*font-size:10px;*/
+	/*color:#000000;*/
+	/*background-color: #eee;*/
+	/*border-top: 1px solid #CCCCCC;*/
+	border: 1px solid #CCCCCC;	
+	
+/*	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	padding: 0px 0px 0px 0px;	*/
+}
+
+TABLE.v3-collapse-shadow{ border-collapse: collapse; border: 1px solid #CCCCCC;}
+       
+TABLE.v3-collapse-shadow TD{ border: 1px solid #CCCCCC;}
+TABLE.FRM{background-color:#f8f8f9; }
+
+.datos{ background-color:#FFFFFF; text-align:right}
+.ctextos{ background-color:#f8f8f9;}
+.titulocampos{ background-color:#E4E4E4;}
+
+TABLE.form{ background-color:#f8f8f9; border-bottom: 1px solid #000000; border-right: 1px solid #000000; border-left: 1px solid #000000; border-top: 1px solid #000000; }
+
+TABLE.form th{ background-color:#E6F2FF;}  
+
+TABLE.form_detalle{ background-color:#FFFFFF; border-bottom: 1px solid #000000; border-right: 1px solid #000000; border-left: 1px solid #000000; border-top: 1px solid #000000; }
+
+TABLE.form_detalle th{ background-color:#E6F2FF;} 
+
+TABLE.busqueda{ background-color:#E6F2FF; border-bottom: 1px solid #000000; border-right: 1px solid #000000; border-left: 1px solid #000000; border-top: 1px solid #000000;}
+
+TABLE.ayuda{ background:#FFFFFF; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#999999;}
+
+.form_detalle_pie { background-color:#f8f8f9;} 
+ 
+TABLE.Imprimir1{
+	border-collapse: collapse; 
+}
+
+TABLE.Imprimir2{
+	border-top: 1px dashed #000000;
+	border-bottom: 1px dashed #000000;
+	border-right: 1px dashed #000000;
+	border-left: 1px dashed #000000;
+}
+
+
+
+TD.v14-header-1 {
+	BACKGROUND: #006699; COLOR: #ffffff; FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana,arial,sans-serif; height:18px
+}
+
+
+/*TD.v14-header-1 {
+	BACKGROUND: #000066; COLOR: #ffffff; FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana,arial,sans-serif; height:18px; 
+}*/
+TD.v14-header-3 {
+	BACKGROUND: #999999; COLOR: #ffffff; FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana,arial,sans-serif
+}	
+TD.v14-header-1-small {
+	BACKGROUND: #98b1c4; COLOR: #ffffff; FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana,arial,sans-serif
+}
+.punteado{
+  border-width:1px;
+  border-style:dashed;
+  border-color:#000000;
+  }
+tr.titulito {
+	BACKGROUND:#003366 ; COLOR: #ffffff; FONT-SIZE: 11px; FONT-FAMILY: verdana,arial,sans-serif; height:18px
+}
+.estilotabla {	BORDER-RIGHT: #006699 1px solid; BORDER-TOP: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-BOTTOM: #006699 1px solid; BACKGROUND-COLOR: #F3F8FE; font-family: Verdana, Arial, Helvetica, sans-serif;FONT-SIZE: 10pt; FONT-WEIGHT: bold; COLOR: #006699;
+}
+.estilotabla2 {	BORDER-RIGHT: #006699 1px solid; BORDER-TOP: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-BOTTOM: #006699 1px solid; BACKGROUND-COLOR: #ffffff; font-family: Verdana, Arial, Helvetica, sans-serif;FONT-SIZE: 10px; COLOR: #000000; 
+}
+/*esto es para el acordeon*/
+		.accordion_toggle {
+			display: block;
+			height: 30px;
+			width: 680px;
+			/*background: url(images/accordion_toggle.jpg) no-repeat top right #a9d06a;*/
+			padding: 0 10px 0 10px;
+			line-height: 30px;
+			color: #000000;
+			font-weight: normal;
+			text-decoration: none;
+			outline: none;
+			font-size: 12px;
+			color: #000000;
+			border-bottom: 1px solid #cde99f;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+		
+		.accordion_toggle_active {
+			/*background: url(images/accordion_toggle_active.jpg) no-repeat top right #e0542f;*/
+			color: #000000;
+			border-bottom: 1px solid #f68263;
+		}
+		
+		.accordion_content {
+			background-color: #ffffff;
+			color: #444444;
+			overflow: hidden;
+		}
+			
+			.accordion_content h2 {
+				margin: 15px 0 5px 10px;
+				color: #0099FF;
+			}
+			
+			.accordion_content p {
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+			
+		.vertical_accordion_toggle {
+			display: block;
+			height: 30px;
+			width: 600px;
+			/*background: url(images/accordion_toggle.jpg) no-repeat top right #a9d06a;*/
+			padding: 0 10px 0 10px;
+			line-height: 30px;
+			color: #ffffff;
+			font-weight: normal;
+			text-decoration: none;
+			outline: none;
+			font-size: 12px;
+			color: #000000;
+			border-bottom: 1px solid #cde99f;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+
+		.vertical_accordion_toggle_active {
+			/*background: url(images/accordion_toggle_active.jpg) no-repeat top right #e0542f;*/
+			color: #ffffff;
+			border-bottom: 1px solid #f68263;
+		}
+
+		.vertical_accordion_content {
+			background-color: #ffffff;
+			color: #444444;
+			overflow: hidden;
+		}
+
+			.vertical_accordion_content h2 {
+				margin: 15px 0 5px 10px;
+				color: #0099FF;
+			}
+
+			.vertical_accordion_content p {
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+  			
+		/*
+			Horizontal Accordion
+		*/
+		
+		.horizontal_accordion_toggle {
+			/* REQUIRED */
+			float: left;	/* This make sure it stays horizontal */
+			/* REQUIRED */
+
+			display: block;
+			height: 100px;
+			width: 30px;
+			/*background: url(images/h_accordion_toggle.jpg) no-repeat top left #a9d06a;*/
+			color: #ffffff;
+			text-decoration: none;
+			outline: none;
+			border-right: 1px solid #cde99f;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+		
+		.horizontal_accordion_toggle_active {
+			/*background: url(images/h_accordion_toggle_active.jpg) no-repeat top left #e0542f;*/
+			border-right: 1px solid #f68263;
+		}
+		
+		.horizontal_accordion_content {
+			/* REQUIRED */
+			height: 10px;	/* We need to define a height for the accordion as it stretches the width */
+			float: left;	/* This make sure it stays horizontal */
+			/* REQUIRED */
+			
+			overflow: hidden;
+			background-color: #ffffff;
+			color: #444444;
+		}
+			
+			.horizontal_accordion_content p {
+				width: 450px;
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+					
+					
+    /* Container styling*/
+    #horizontal_container {
+      margin: 20px auto 20px auto;
+      width: 680px;   
+     /* height: 100px; */
+    }
+    
+    #vertical_nested_container {
+      margin: 20px auto 20px auto;
+      width: 620px;
+    }
+
+	

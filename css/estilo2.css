@@ -1,0 +1,93 @@
+body {
+	background-color: inherit; /* background color */
+	color: inherit; /* text color */
+	font-family: Verdana; /* font name */
+	margin: 0; /* top right bottom left */
+	height: 100%;
+}
+
+.TableHeader td {
+	background-color: #5D7B9D;	/* header bgcolor */
+	color: #FFFFFF; /* header font color */
+	border-bottom: 1px solid; /* header border width */
+	border-right: 1px solid; /* header border width */
+	border-color: #9F9F9F; /* header border color */	
+	background-image: url(../imagenes/professional2.png); /* header bg image */
+	background-repeat: repeat-x;		
+	vertical-align: top; 	
+	
+	font-family: Verdana; /* font name */
+	font-size: 12px; /* font size */
+	padding: 3px;
+}
+
+
+.TableRow {
+	padding: 3px; /* cell padding */
+	border-bottom: 0px solid; /* border width, horizontal grid line */
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 1px solid; /* border width, vertical grid line */
+	border-color: #CFCFCF;  /* border color */
+	font-family: Verdana; /* font name */
+	font-size: xx-small; /* font size */
+}
+.label{
+	font-family: Verdana; /* font name */
+	font-size: 12px; /* font size */
+}
+
+.select{
+	font-family: Verdana; /* font name */
+	font-size: 11px; /* font size */
+}
+
+.alt {
+     background-color: #F7F6F3;
+     color: inherit;
+}
+
+a{
+	font-family: Verdana; /* font name */
+	font-size: 11px; /* font size */
+}
+
+.Grid {
+	border: 0;
+	border: 1px solid #9F9F9F; /* grid border */
+	padding: 0;	
+}
+
+
+.labelN{
+	font-family: Verdana; /* font name */
+	font-size: 11px; /* font size */
+	font-weight:600;
+	padding: 3px;
+}
+
+#titulo h2 {
+        font-family: Verdana; /* font name */
+        font-size:16px;
+/*        letter-spacing:-1px;*/
+        font-weight:bold;
+        color:#444;
+        margin-bottom:20px;
+        padding-bottom:10px;
+        border-bottom:5px solid #ebf1f1;		
+		text-align:left;
+        }
+
+input{
+	font-family: Verdana; /* font name */
+	font-size: 11px; /* font size */
+}
+
+.formulario{
+	border:solid 1px #CFCFCF;
+	background:#EBE9E0;
+	margin:0 auto;
+	padding:3px;
+	font-family: Verdana; /* font name */
+	font-size: 11px; /* font size #b7ddf2*/
+}
